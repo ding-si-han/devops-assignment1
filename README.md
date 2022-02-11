@@ -46,4 +46,7 @@ docker build -t dingsihan97/student_service .
 
 # starting up a container
 docker run -it -p 8080:8080 dingsihan97/student_service
+
+# pushing container to dockerhub
+docker push dingsihan97/student_service
 ```
