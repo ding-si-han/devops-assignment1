@@ -26,8 +26,7 @@ paths:
         style: simple
         explode: false
         schema:
-          type: number
-          format: integer
+          type: integer
       responses:
         "200":
           description: successful operation
@@ -53,8 +52,7 @@ paths:
         style: simple
         explode: false
         schema:
-          type: number
-          format: integer
+          type: integer
       responses:
         "200":
           description: successful deletion
@@ -80,8 +78,7 @@ paths:
           content:
             application/json:
               schema:
-                type: number
-                format: integer
+                type: integer
                 x-content-type: application/json
         "400":
           description: "invalid input, object invalid"
